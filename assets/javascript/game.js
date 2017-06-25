@@ -50,7 +50,7 @@ function loser(){
   reset()
 }
 
-// Sets up click for jewels
+// Sets up click for droids
 $("#one").on ("click", function(){
   userTotal = userTotal + num1;
   console.log("New userTotal= " + userTotal);
