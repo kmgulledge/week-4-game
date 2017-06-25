@@ -1,0 +1,53 @@
+/* Begin Blue Belt Coding Ninja CSS 
+-------------------------------------------------- */
+
+/* Body style
+-------------------------------------------------- */
+body{
+	background-color: black;
+	background-image: url("../images/r2bg.jpg");
+  background-size: 1600px 860px;
+	background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  font-family: 'Geostar Fill', cursive;
+  color: white;
+  width: 968px;
+}
+
+/* Row style
+-------------------------------------------------- */
+.row {
+    margin-top: 25px;
+  }
+
+  /* Text style
+-------------------------------------------------- */
+h1 {
+    text-align: center;
+  }
+
+p {
+  font-size: 20px;
+}
+
+  /* Image style
+-------------------------------------------------- */
+
+.droidImage{
+  height: 80px;
+  margin: 30px;
+
+
+/* Media Query styles
+-------------------------------------------------- */
+
+/** tablet device **/
+@media only screen
+ (max-width: -width: 480px) {
+
+body {
+        background-image: none !important; background-color: #A9A9A9;
+  }
+
+}

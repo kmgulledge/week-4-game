@@ -1,0 +1,182 @@
+<!DOCTYPE html> <!-- Begin Blue Belt Coding Ninja HTML -->
+
+  <!-- What language do we speak? -->
+  <html lang="en">
+
+	<!-- Head Info Here -->
+  <head>
+    
+    <!-- Meta Info -->
+		<meta charset="UTF-8">
+    <meta name="description" content="Star Wars Crystal Collector Game"> <!-- Description Here -->
+    <meta name="keywords" content="Star Wars Crystal Collector Game, Star Wars, Crystal, Collector, Game, Star, Wars,"> <!-- SEO Info -->
+    <meta name="author" content="Kevin Gulledge"> <!-- Me, Myself, and I -->
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Mobility, yes please -->
+    
+    <!-- Title / Name -->
+		<title>Star Wars Crystal Collector Game</title>
+
+    <!-- CSS Reset -->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    
+    <!-- Bootstrap CSS Link -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- Personalized CSS Link -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <!-- Google Fonts Link -->
+    <link href="https://fonts.googleapis.com/css?family=Geostar+Fill" rel="stylesheet">
+
+	</head>
+
+  <!-- Body of Page Here -->
+	<body>
+
+    <!-- Container Starts Here -->
+    <div class="container">
+
+      <!-- Row 1 -->
+      <div class="row">
+        
+        <!-- First Column -->
+        <div class="col-md-12">
+
+          <div class="section-title container">
+          
+          </div>
+          
+            <div class="page-header">
+    
+              <h1>Welcome To Droid Counter</h1>
+    
+            </div>
+
+          </div>
+        
+      </div>
+      
+      <!-- Row 2 -->
+      <div class="row">
+        
+        <!-- First Column -->
+        <div class="col-md-4">
+          
+          <div class="page-header">    
+          
+          </div>
+          
+          <div class="numberToMatch">
+    
+            <p>Number To Get:
+      
+              <span id= "randomNumber"></span>
+            
+            </p>
+  
+          </div>
+  
+            <div class="winsAndLosses">
+    
+              <p>Wins:
+      
+                <span id= "numberWins"></span>
+      
+              </br>
+              
+              Losses: 
+      
+                <span id= "numberLosses"></span>
+    
+              </p>
+  
+            </div>
+
+            <div class="userTotal">
+    
+              <p>Your total score is:
+      
+              <span id="finalTotal"></span>
+              
+              </p>
+  
+            </div>
+        
+        </div>
+        
+        <!-- Second Column -->
+        <div class="col-md-8">
+    
+          <div class="page-header">
+    
+          </div>
+          
+          <div class="droids">
+
+            <p>These are the droids you are looking for:</p>
+            
+            <img src="assets/images/bb8.png" class="droidImage" id="one" alt="bb8">
+            <img src="assets/images/c3p0.jpg" class="droidImage" id="two" alt="c3p0">
+            <img src="assets/images/droid.jpg" class="droidImage" id= "three" alt="droid">
+            <img src="assets/images/bdroid.jpg" class="droidImage" id= "four" alt="battledroid">
+          
+          </div>
+
+          <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+          <script type="text/javascript" src="assets/javascript/game.js"></script>
+    
+        </div>
+
+      </div>
+
+      <!-- Row 3 -->
+      <div class="row">
+        
+        <!-- First Column -->
+        <div class="col-md-12">
+
+          <div class="section-title container">
+          
+          </div>
+          
+            <div class="page-header">
+    
+              <h4>How To Play The Game</h4>
+    
+            </div>
+            
+                <ol>
+                  <li>You will be given a random number at the start of the game.<span>"Number To Get"</span></li>
+                  <li>There are four crystals below.</li>
+                  <ul>
+                    <li id="blue">Blue</li>
+                    <li id="green">Green</li>
+                    <li id="red">Red</li>
+                    <li id="yellow">Yellow</li>
+                  </ul>
+                  <li>By clicking on a crystal, you will add a specific amount of points to your total score.</li>
+                  <li>You win the game by matching your total score to the random number.</li>
+                  <li>You lose the game if your total score goes above the random number.</li>
+                  <li>The value of each crystal is hidden from you until you click on it.</li>
+                  <li>Each time when the game starts, the game will change the values of each crystal.</li>
+                </ol>
+
+          </div>
+        
+      </div>
+
+    </div>
+
+    </div>
+
+  </div>
+
+  <!-- jQuery CDN -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+  <!-- Bootstrap JavaScript CDN -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+</body>
+
+</html><!-- The End, Thanks For Playing -->
