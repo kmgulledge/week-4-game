@@ -10,7 +10,7 @@ body{
 	background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  font-family: 'Geostar Fill', cursive;
+  font-family: 'Roboto', sans-serif;
   color: white;
   width: 968px;
 }
@@ -19,12 +19,14 @@ body{
 -------------------------------------------------- */
 .row {
     margin-top: 5px;
+    margin-top: 10px;
   }
 
   /* Text style
 -------------------------------------------------- */
 h1 {
     text-align: center;
+    font-family: 'Geostar Fill', cursive;
   }
 
 p {
@@ -36,18 +38,59 @@ p {
 
 .droidImage{
   height: 80px;
-  margin: 30px;
-
+  margin: 20px;
+}
 
 /* Media Query styles
 -------------------------------------------------- */
 
-/** tablet device **/
-@media only screen
- (max-width: -width: 480px) {
-
-body {
-        background-image: none !important; background-color: #A9A9A9;
+/** phone in landscape **/
+@media only screen 
+and (max-width: 640px) {
+  
+  body {
+    background-image: none !important; background-color: #A9A9A9;
   }
 
+  h1 {
+    text-align: left;
+    font-family: 'Geostar Fill', cursive;
+    font-size: 30px;
+  }
+}
+
+  
+
+/** tablet device **/
+@media only screen
+and (min-width: 641px)
+and (max-width: 768px) {
+
+body {
+    background-image: none !important; background-color: #A9A9A9;
+  }
+
+  h1 {
+    text-align: left;
+    font-family: 'Geostar Fill', cursive;
+    font-size: 30px;
+  }
+  
+
+}
+
+/** desktop and laptop devices **/
+@media only screen
+and (min-width: 769px)
+and (max-width: 980px) {
+
+    body {
+    background-image: none !important; background-color: #A9A9A9;
+  }
+
+  h1 {
+    text-align: left;
+    font-family: 'Geostar Fill', cursive;
+    font-size: 30px;
+  }
 }
