@@ -7,7 +7,7 @@ $( document ).ready(function(){
 // Puts the random number to the HTML 
 $("#randomNumber").text(Random);
   
-// Setting up random numbers for each jewel between 1 - 12
+// Setting up random numbers for each droid between 1 - 12
 var num1= Math.floor(Math.random() * 12)
 var num2= Math.floor(Math.random() * 12)
 var num3= Math.floor(Math.random() * 12)
